@@ -32,7 +32,7 @@ Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/cour
 end
 
 def get_courses
-  self.get_page.css(".post")
+  self.get_page.css(".post") #returns the collection of Nokogiri XML elements
 end
 
 end
